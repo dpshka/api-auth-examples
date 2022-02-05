@@ -8,6 +8,6 @@
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.4.0",
-    "node-jose": "^1.1.1"
+    "node-jose": "^2.1.0"
   }
 }
