@@ -8,6 +8,12 @@
   "dependencies": {
     "axios": "^0.21.1",
     "core-js": "^3.4.0",
-    "node-jose": "^1.1.1"
-  }
+    "node-jose": "^1.1.1",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
